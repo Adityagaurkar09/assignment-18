@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator design</title>
+</head>
+<style>
+    .body{
+        background-color:#3D3D5C;
+        border-radius: 10px;
+        margin: 50px auto;
+        height: 600px;
+        width: 550px;
+    }
+    .screen{
+        background-color: #A1AF77;
+        margin: 35px;
+        height: 75px;
+        width: 470px;
+        text-align: end;
+        font-size: 70px;
+    }
+    .numberpad{
+        height: 400px;
+        width:430px ;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 20px 50px 20px 60px;
+    }
+    .btn{
+       height: 70px; 
+       width: 60px;
+       padding: 15px 0;
+       font-size: 20px;
+       margin: 10px;
+       align-items: center;
+
+    }
+    .barobr{
+        background-color: #ff6348;
+        height: 150px;
+        color: white;
+    
+    }
+</style>
+<body>
+   <div class="body">
+        <input type="text" value="0" class="screen">
+
+    <div class="numberpad">
+     <button class="btn">AC</button>
+     <button class="btn">7</button>
+     <button class="btn">4</button>
+     <button class="btn">1</button>
+     <button class="btn">0</button>
+     <button class="btn">M+</button>
+     <button class="btn ">8</button>
+     <button class="btn">5</button>
+     <button class="btn">2</button>
+     <button class="btn">.</button>
+     <button class="btn">/</button>
+     <button class="btn">9</button>
+     <button class="btn">6</button>
+     <button class="btn">3</button>
+     <button class="btn">%</button>
+     <button class="btn">*</button>
+     <button class="btn">-</button>
+     <button class="btn">+</button>
+     <button class="btn barobr">=</button>
+
+    </div>
+
+   </div> 
+</body>
+</html>
