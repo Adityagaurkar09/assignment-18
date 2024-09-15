@@ -1,0 +1,43 @@
+.body{
+    background-color:#3D3D5C;
+    border-radius: 10px;
+    margin: 50px auto;
+    height: 600px;
+    width: 550px;
+}
+.screen{
+    background-color: #A1AF77;
+    margin: 35px;
+    height: 75px;
+    width: 470px;
+    text-align: end;
+    font-size: 70px;
+}
+.numberpad{
+    height: 400px;
+    width:430px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px 50px 20px 60px;
+}
+.btn{
+   height: 70px; 
+   width: 60px;
+   padding: 15px 0;
+   font-size: 20px;
+   margin: 10px;
+   align-items: center;
+   border-radius: 10px;
+   shape-margin: 2%;
+   cursor: pointer;
+}
+.btn:hover{
+    background-color: #A1AF77;
+}
+.barobr{
+    background-color: #ff6348;
+    height: 150px;
+    color: white;
+
+}
